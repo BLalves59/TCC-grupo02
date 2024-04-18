@@ -19,5 +19,6 @@ app.listen(porta, () => {
 <Text>Teste1</Text>
 //request(vem do front) response (vai pro front)
 app.get('/', (request, response) => {
-    response.send('Hello World')
+    response.send('Hello World');
+<Text>Oi</Text>
 })
